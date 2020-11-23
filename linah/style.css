@@ -1,6 +1,30 @@
-h1{
-    color:blueviolet;;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url(#);
+ul{
+    list-style-type:none;
+    border:2px solid red;
+    background-color:white;
+    overflow: hidden;
+}
+li{float: left;}
+.nav-right{
+    float: right;
+}
+li a{
+    display:block;
+    color: #666;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: tomato;
+}
+li a:hover
+{
+    background-color: whitesmoke;
+}
+li a.active{background-color: tomato;
+color: white;
+}
+div{
+    border: 30px dotted;
     
 }
