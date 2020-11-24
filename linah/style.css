@@ -10,21 +10,39 @@ li{float: left;}
 }
 li a{
     display:block;
-    color: #666;
+    color:black;
     padding: 10px;
 }
 a{
     text-decoration: none;
-    color: tomato;
+    color: rgb(252, 7, 7);
 }
 li a:hover
 {
-    background-color: whitesmoke;
+    background-color: gray;
 }
-li a.active{background-color: tomato;
-color: white;
+li a.active{background-color: rgb(9, 10, 10);
+color:white;
 }
 div{
-    border: 30px dotted;
+    border: 4px inset;
+border-radius: 15px;
+box-shadow: 15px 10px 0px wheat;
+background-image: repeating-linear-gradient(wheat,wheat)
     
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+thead{
+    background-color: red;
+    color: white;
+}
+thead tr{
+    text-align: center;
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(126, 117, 117);
 }
