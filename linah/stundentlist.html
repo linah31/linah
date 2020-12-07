@@ -5,8 +5,11 @@
           
         </title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script>
+            var arr=[[.'20193017','linah','cs','user icon.jpg'],['20194084','yara','cs ','user icon.jpg']]
+        </script>
         </head>
-        <body>
+        <body onload="int( );">
             <nav>
                 <ul>
         
@@ -16,35 +19,19 @@
                     <li class="nav-right"><a href="#" target="_blank">logout</a></li>
         </ul>
         </nav>
-<table border="1">
-<thead>
-    <tr><td>ID</td>
-    <td>NAME</td>
-    <td>IMAGE</td>
-    <td>faculty</td>
-    </tr>   
-</thead>
-<tbody>
-    <tr>
-        <td>LINAH MOHAMMED</td>
-        <td>20193017</td>
-        <td><img src="user icon.jpg" alt="user_icon" width="30px" height="30px"></td>
-        <td>CS</td>
-    </tr>
-    <tr>
-        <td>YARA MOHAMMED</td>
-        <td>4048</td>
-        <td><img src="user icon.jpg" alt="user_icon" width="30px" height="30px"></td>
-        <td>CS</td>
-    </tr>
-</tbody>
-<tfoot>
-    <tr>
-        <td colspan="4">nuber of students =2</td>
-    </tr>
-</tfoot>
-</table>
+        <div class="searchbar">
+            <input type="search" name="search" class="searchbox">
+        </div>
+        <div id="mytable"></div>
+
 <hr>
+<script>
+    function intit(){
+        var mytable=' ';
+        mytable+='<table border ="1">'+
+        '<thead>'
+    }
+</script>
         </body>
         <footer>
 

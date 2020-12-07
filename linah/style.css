@@ -24,7 +24,7 @@ li a:hover
 li a.active{background-color: rgb(9, 10, 10);
 color:white;
 }
-div{
+div :not(.searchbar){
     border: 4px ridge;
 border-radius: 15px;
 box-shadow: 15px 10px 0px wheat;
@@ -45,4 +45,11 @@ thead tr{
 }
 tbody tr:nth-child(odd){
     background-color: rgb(126, 117, 117);
+}
+. searchbar{
+width: 80%;
+border: 1px;
+border-style: none;
+border-radius: 0 2px;
+
 }
